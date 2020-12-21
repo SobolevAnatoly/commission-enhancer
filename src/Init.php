@@ -33,7 +33,7 @@ final class Init {
 	 * @return
 	 */
 	public function __construct() {
-		foreach ( self::getServices() as $class ) {
+		foreach ( self::getSrc() as $class ) {
 			self::instantiate( $class );
 		}
 	}
@@ -42,8 +42,9 @@ final class Init {
 	 * Store all the classes inside an array
 	 * @return array Full list of classes
 	 */
-	private static function getServices() {
+	private static function getSrc() {
 		return [
+			Controller\VendorsCommission::class,
 
 		];
 	}
