@@ -21,11 +21,8 @@ class ComposerStaticInitfe81252e6b50819fc066a314f792ee11
     );
 
     public static $classMap = array (
-        'Codeable\\CommissionEnhancer\\Controller\\TransactionListener' => __DIR__ . '/../..' . '/src/Controller/TransactionListener.php',
         'Codeable\\CommissionEnhancer\\Controller\\VendorsCommission' => __DIR__ . '/../..' . '/src/Controller/VendorsCommission.php',
-        'Codeable\\CommissionEnhancer\\Controller\\VendorsImplementation' => __DIR__ . '/../..' . '/src/Controller/VendorsImplementation.php',
         'Codeable\\CommissionEnhancer\\Init' => __DIR__ . '/../..' . '/src/Init.php',
-        'Codeable\\CommissionEnhancer\\View\\AdminSettings' => __DIR__ . '/../..' . '/src/View/AdminSettings.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

@@ -6,9 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Codeable\\CommissionEnhancer\\Controller\\TransactionListener' => $baseDir . '/src/Controller/TransactionListener.php',
     'Codeable\\CommissionEnhancer\\Controller\\VendorsCommission' => $baseDir . '/src/Controller/VendorsCommission.php',
-    'Codeable\\CommissionEnhancer\\Controller\\VendorsImplementation' => $baseDir . '/src/Controller/VendorsImplementation.php',
     'Codeable\\CommissionEnhancer\\Init' => $baseDir . '/src/Init.php',
-    'Codeable\\CommissionEnhancer\\View\\AdminSettings' => $baseDir . '/src/View/AdminSettings.php',
 );
